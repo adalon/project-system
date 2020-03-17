@@ -11,6 +11,7 @@ namespace Microsoft.VisualStudio.Composition
 {
     internal static class OrderPrecedenceImportCollectionExtensions
     {
+
         /// <summary>
         /// Produces the sequence of imports within a <see cref="OrderPrecedenceImportCollection{T}"/>,
         /// omitting any that throw MEF exceptions.

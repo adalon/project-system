@@ -9,6 +9,7 @@ namespace Microsoft.VisualStudio
     /// </summary>
     internal static class ComparableExtensions
     {
+
         /// <summary>
         ///     Returns a value indicating whether the current instance is later than the 
         ///     specified <see cref="IComparable"/> instance.

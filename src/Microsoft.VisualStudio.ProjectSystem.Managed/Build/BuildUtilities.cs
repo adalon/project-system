@@ -22,6 +22,7 @@ namespace Microsoft.VisualStudio.Build
         /// </summary>
         public static bool HasWellKnownConditionsThatAlwaysEvaluateToTrue(ProjectPropertyElement element)
         {
+            // dadas
             Requires.NotNull(element, nameof(element));
 
             // We look for known conditions that evaluate to true so that 
